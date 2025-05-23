@@ -37,11 +37,6 @@ A computer vision project that detects faces and recognizes human emotions (like
 │       └── ... (other emotions)
 ├── models/
 │   └── emotion_model.h5    # Trained CNN model
-├── src/
-│   ├── train_model.py       # Script to train CNN on the dataset
-│   ├── detect_emotion.py    # Real-time face detection and emotion recognition
-│   └── utils.py             # Helper functions (e.g., image preprocessing)
-├── app.py                   # Optional Flask app to serve model predictions
 ├── requirements.txt
 └── README.md
 ```
